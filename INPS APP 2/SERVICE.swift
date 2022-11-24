@@ -40,6 +40,7 @@ struct SERVICE: View {
                     .background(Color("personalblue"))
                     .clipShape(Rectangle())
                     .cornerRadius(30)
+                    
 
         
                     

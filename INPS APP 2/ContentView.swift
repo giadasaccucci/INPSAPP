@@ -21,7 +21,7 @@ struct ContentView: View {
                 }
             RESERVATION()
                 .tabItem {
-                    Label("My Reservation", systemImage: "ticket")
+                    Label("Reservation", systemImage: "ticket")
                 }
             Profile()
                 .tabItem {
