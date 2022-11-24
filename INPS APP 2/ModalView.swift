@@ -22,8 +22,9 @@ struct ModalView: View {
                     
                 } label: {
                     Text("Cancel").foregroundColor(.blue) }
-                
-                
+                Spacer()
+                Text("New Reservation")
+                    .bold()
                 Spacer()
                 
                 Button{

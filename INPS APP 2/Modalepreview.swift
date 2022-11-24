@@ -24,7 +24,7 @@ struct Modalepreview: View {
                     .font(.title2)
                     .bold()
                     .multilineTextAlignment(.leading)
-                    .padding(.trailing, 250.0)
+                    .padding(.trailing, 300.0)
                 
                 ZStack{
                     Rectangle()
