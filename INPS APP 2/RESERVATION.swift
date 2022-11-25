@@ -87,6 +87,8 @@ struct RESERVATION: View {
                         .padding(.leading, 50.0)
                         .frame(height: 5.0)
                     
+                    Spacer()
+                        .frame(width: 60.0)
               
                     Button{} label:{Text("See All")
                         .padding()}

@@ -9,7 +9,31 @@ import SwiftUI
 
 struct FamilyService: View {
     var body: some View {
-        Text("Family Information")
+        
+
+    
+                
+            List{
+            Section{
+                Text("Information Title")
+                Text("Information Title")
+                Text("Information Title")
+                Text("Information Title")
+                Text("Information Title")
+                Text("Information Title")
+                Text("Information Title")
+                Text("Information Title")
+                Text("Information Title")
+            }
+           
+          
+            .ignoresSafeArea()
+
+        }
+            .listStyle(.plain)
+        .navigationTitle("Family Service")
+       
+        
     }
 }
 
