@@ -14,7 +14,7 @@ struct SERVICE: View {
             ScrollView{
                 VStack{
                         HStack{
-                            Button {
+                            NavigationLink { FamilyService()
                             } label: {
                                 VStack{
                                     Image(systemName: "figure.and.child.holdinghands")
